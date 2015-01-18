@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5a9d85d2_203b47ed",
+        "filename": "cm.dependencies",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 8640
+      },
+      "writtenOn": "2015-01-18T23:29:22Z",
+      "side": 1,
+      "message": "This is already on the cm manifest no need for a dependency",
+      "revId": "21a0e291489711aa4e5ac1d0ddc85d7579b74136",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
