@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5ac665da_39a54904",
+        "filename": "prebuilt/fixup.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 6186
+      },
+      "writtenOn": "2015-03-25T01:59:27Z",
+      "side": 1,
+      "message": "Why are you not using custom release tools to deal with this at install time?\n\nSuch as here:\nhttps://github.com/CyanogenMod/android_device_motorola_moto_msm8960/blob/cm-11.0/releasetools.py",
+      "revId": "8df19ce144e883e67ba23a13ec79c44d4dd5eb89",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
