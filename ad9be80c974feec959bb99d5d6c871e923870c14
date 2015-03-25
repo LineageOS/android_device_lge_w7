@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5ac665da_f949f18f",
+        "filename": "prebuilt/fixup.sh",
+        "patchSetId": 2
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 6186
+      },
+      "writtenOn": "2015-03-25T11:09:56Z",
+      "side": 1,
+      "message": "I think the correct way is:\n\nmv /system/usr/keylayout/Generic-D410.kl /system/usr/keylayout/Generic.kl\n\nrm /system/usr/keylayout/Generic-D4x5.kl\n\nand vice versa in the other case.",
+      "revId": "ad9be80c974feec959bb99d5d6c871e923870c14",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
