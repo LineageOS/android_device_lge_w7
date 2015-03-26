@@ -34,6 +34,24 @@
       "revId": "ad9be80c974feec959bb99d5d6c871e923870c14",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ac665da_c2519a10",
+        "filename": "prebuilt/fixup.sh",
+        "patchSetId": 2
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1187
+      },
+      "writtenOn": "2015-03-26T23:40:50Z",
+      "side": 1,
+      "message": "Simplest way to get it work. No need add for each device gpio-keys, touch_dev.kl etc",
+      "parentUuid": "5ac665da_fc739fb2",
+      "revId": "ad9be80c974feec959bb99d5d6c871e923870c14",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
