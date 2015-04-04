@@ -52,6 +52,24 @@
       "revId": "ad9be80c974feec959bb99d5d6c871e923870c14",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ac665da_5e04557d",
+        "filename": "prebuilt/fixup.sh",
+        "patchSetId": 2
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2015-04-04T09:54:45Z",
+      "side": 1,
+      "message": "Yeah but generic is supposed to be just generic. The correct way is to add the device-specific keylayouts",
+      "parentUuid": "5ac665da_c2519a10",
+      "revId": "ad9be80c974feec959bb99d5d6c871e923870c14",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
