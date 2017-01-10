@@ -36,7 +36,7 @@ TARGET_RELEASETOOLS_EXTENSIONS := device/lge/w7
 TARGET_BOOTLOADER_BOARD_NAME := w7
 
 # Kernel
-TARGET_KERNEL_CONFIG := w7ds_cyanogenmod_defconfig
+TARGET_KERNEL_CONFIG := w7ds_lineageos_defconfig
 
 # Filesystem,
 BOARD_FLASH_BLOCK_SIZE := 131072
