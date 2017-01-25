@@ -31,7 +31,7 @@ PRODUCT_COPY_FILES += \
 
 # OTA
 PRODUCT_COPY_FILES += \
-    device/lge/w7/prebuilt/fixup.sh:fixup.sh
+    device/lge/w7/releasetools/fixup.sh:install/bin/fixup.sh
 
 # Screen density
 PRODUCT_AAPT_CONFIG := normal
