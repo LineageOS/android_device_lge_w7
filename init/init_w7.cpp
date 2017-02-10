@@ -27,9 +27,9 @@
    IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include <stdlib.h>
-#include <stdio.h>
-#include <string.h>
+#include <cstdlib>
+#include <cstdio>
+#include <cstring>
 
 #include "vendor_init.h"
 #include "property_service.h"
@@ -64,10 +64,7 @@ int check_cmdline(const char param[]) {
     return 0;
 }
 
-void vendor_load_properties()
-{
-    char devicename[PROP_VALUE_MAX];
-
+void vendor_load_properties() {
     std::string serial = property_get("ro.boot.serialno");
 
     if (serial.substr(0,6) ==  "LGD410") {
@@ -117,7 +114,6 @@ void vendor_load_properties()
     }
 
     std::string device = property_get("ro.product.device");
-    strlcpy(devicename, device.c_str(), sizeof(devicename));
-    ERROR("Found hardware id: %s setting build properties for %s device\n", serial.c_str(), devicename);
 
+    ERROR("Found hardware id: %s setting build properties for %s device\n", serial.c_str(), device.c_str());
 }
