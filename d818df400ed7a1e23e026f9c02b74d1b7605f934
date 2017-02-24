@@ -19,6 +19,23 @@
     },
     {
       "key": {
+        "uuid": "fa5d592f_d818a486",
+        "filename": "proprietary-blobs.txt",
+        "patchSetId": 2
+      },
+      "lineNbr": 99,
+      "author": {
+        "id": 1187
+      },
+      "writtenOn": "2017-02-24T10:00:13Z",
+      "side": 1,
+      "message": "This probbably only for IMS and not related to camera itself.",
+      "revId": "d818df400ed7a1e23e026f9c02b74d1b7605f934",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "fa5d592f_5825d4c0",
         "filename": "proprietary-blobs.txt",
         "patchSetId": 2
