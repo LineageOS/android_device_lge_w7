@@ -80,6 +80,7 @@ lib/libchromatix_imx219_common.so
 lib/libchromatix_imx219_default_video.so
 lib/libchromatix_imx219_preview.so
 lib/libchromatix_imx219_snapshot.so
+lib/libHDR.so
 lib/libmmcamera_hi707.so
 lib/libmmcamera_hi543.so
 lib/libmmcamera_imx111.so
@@ -184,6 +185,7 @@ vendor/lib/libmmcamera_hi707.so
 vendor/lib/libmmcamera_imx111.so
 vendor/lib/libmmcamera_imx119.so
 vendor/lib/libmmcamera_imx219.so
+vendor/lib/libmmcamera_tuning.so
 vendor/lib/libqomx_jpegdec.so
 vendor/lib/libqomx_jpegenc.so
 
