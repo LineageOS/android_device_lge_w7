@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fa5d592f_182f5ca3",
+        "filename": "proprietary-blobs.txt",
+        "patchSetId": 2
+      },
+      "lineNbr": 97,
+      "author": {
+        "id": 1187
+      },
+      "writtenOn": "2017-02-24T09:59:09Z",
+      "side": 1,
+      "message": "is not it opensource lib?",
+      "revId": "d818df400ed7a1e23e026f9c02b74d1b7605f934",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fa5d592f_5825d4c0",
+        "filename": "proprietary-blobs.txt",
+        "patchSetId": 2
+      },
+      "lineNbr": 181,
+      "author": {
+        "id": 1187
+      },
+      "writtenOn": "2017-02-24T09:59:09Z",
+      "side": 1,
+      "message": "Already exist in list\nvendor/lib/libchromatix_imx179_common.so\nvendor/lib/libchromatix_imx179_default_video.so\nvendor/lib/libchromatix_imx179_preview.so\nvendor/lib/libchromatix_imx179_snapshot.so\nvendor/lib/libmmcamera_imx179.so\nvendor/lib/libmmcamera_tuning.so\nvendor/lib/liboemcamera.so\nvendor/lib/libchromatix_hi543_common.so\nvendor/lib/libchromatix_hi543_default_video.so\nvendor/lib/libchromatix_hi543_preview.so\nlib/libchromatix_hi543_snapshot.so",
+      "range": {
+        "startLine": 181,
+        "startChar": 0,
+        "endLine": 181,
+        "endChar": 40
+      },
+      "revId": "d818df400ed7a1e23e026f9c02b74d1b7605f934",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
