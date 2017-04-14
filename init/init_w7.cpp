@@ -27,41 +27,24 @@
    IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include <cstdlib>
-#include <cstdio>
-#include <cstring>
+#include <fstream>
+#include <string>
 
 #include "vendor_init.h"
 #include "property_service.h"
 #include "log.h"
 #include "util.h"
 
-#define CHUNK 2048 /* read 2048 bytes at a time */
-
-int check_cmdline(const char param[]) {
-
-    char buf[CHUNK];
-    FILE *file;
-    size_t nread;
-    file = fopen("/proc/cmdline", "r");
-    if (file) {
-        while ((nread = fread(buf, 1, sizeof buf, file)) > 0) {
-                /* fwrite(buf, 1, nread, stdout); */
-                char delims[] = " ";
-                char *word = NULL;
-                word = strtok(buf, delims);
-
-                while(word != NULL) {
-                        if (!strcmp(param,word)) {
-                                fclose(file);
-                                return 1;
-                        }
-                        word = strtok(NULL, delims);
-                }
+bool check_cmdline(const std::string &param){
+    std::ifstream file("/proc/cmdline");
+    if (file.good()) {
+        std::string line;
+        while (std::getline(file, line, ' ')) {
+            if(line == param)
+                return true;
         }
     }
-    fclose(file);
-    return 0;
+    return false;
 }
 
 void vendor_load_properties() {
@@ -69,7 +52,7 @@ void vendor_load_properties() {
 
     if (serial.substr(0,6) ==  "LGD410") {
         /* D410, D410hn */
-        if (check_cmdline("model.name=LG-D410hn") == 1) {
+        if (check_cmdline("model.name=LG-D410hn")) {
                 property_set("ro.product.device", "w7nds");
                 property_set("ro.product.model", "LG-D410hn");
                 property_set("ro.nfc.port", "I2C");
@@ -85,7 +68,7 @@ void vendor_load_properties() {
         property_set("ro.telephony.ril.config", "simactivation");
     } else if (serial.substr(0,6) ==  "LGD405") {
         /* D405, D405n */
-        if (check_cmdline("model.name=LG-D405n") == 1) {
+        if (check_cmdline("model.name=LG-D405n")) {
                 property_set("ro.product.model", "LG-D405n");
                 property_set("ro.product.device", "w7n");
                 property_set("ro.nfc.port", "I2C");
