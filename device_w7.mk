@@ -19,7 +19,7 @@ $(call inherit-product, frameworks/native/build/phone-hdpi-512-dalvik-heap.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 # Specific overlay
-DEVICE_PACKAGE_OVERLAYS += device/lge/w7/overlay
+PRODUCT_PACKAGE_OVERLAYS += device/lge/w7/overlay
 
 # Configs
 PRODUCT_COPY_FILES += \
