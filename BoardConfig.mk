@@ -26,7 +26,6 @@
 -include device/lge/msm8226-common/BoardConfigCommon.mk
 
 # Vendor Init
-TARGET_UNIFIED_DEVICE := true
 TARGET_INIT_VENDOR_LIB := libinit_w7
 TARGET_OTA_ASSERT_DEVICE := w7,w7ds,w7n,w7nds
 TARGET_RECOVERY_DEVICE_MODULES := libinit_w7
