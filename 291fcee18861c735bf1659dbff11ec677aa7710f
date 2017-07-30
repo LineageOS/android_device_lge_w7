@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ef8f2491_d12abb00",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 16082
+      },
+      "writtenOn": "2017-07-30T20:31:33Z",
+      "side": 1,
+      "message": "Wrong authorship",
+      "range": {
+        "startLine": 2,
+        "startChar": 12,
+        "endLine": 2,
+        "endChar": 42
+      },
+      "revId": "291fcee18861c735bf1659dbff11ec677aa7710f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "d0849101_60d90f6f",
+        "filename": "init/init_w7.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 16082
+      },
+      "writtenOn": "2017-07-30T20:31:33Z",
+      "side": 1,
+      "message": "What is this? Have you even tested this?",
+      "range": {
+        "startLine": 32,
+        "startChar": 0,
+        "endLine": 32,
+        "endChar": 9
+      },
+      "revId": "291fcee18861c735bf1659dbff11ec677aa7710f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
